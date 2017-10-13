@@ -4,5 +4,6 @@ CREATE TABLE Shelves (
 );
 
 CREATE TABLE Bin (
-    
+    BinID SERIAL PRIMARY KEY NOT NULL,
+    Name varchar(40) NOT NULL
 );
